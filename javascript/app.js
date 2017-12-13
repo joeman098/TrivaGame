@@ -91,7 +91,8 @@ $("#but").children().prop("disabled",true);
 					clearInterval(window.intervalId);
 					$("#options").html("=D");
 					$("#but").children().prop("disabled",true);	
-					$("#start").prop("disabled",false);	
+					$("#start").prop("disabled",false).html("RESTART");	
+
 					time = 15;	
 					qnum = -1;
 					stats.correct = 0;
