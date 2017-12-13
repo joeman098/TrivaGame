@@ -1,0 +1,19 @@
+.btn{
+	height: 100px;
+	width: 30%;
+}
+body{
+	background: url(../images/background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*.card{
+	opacity: 0.5;
+	color: red;
+}*/
+
+h1{
+	color: white;
+}

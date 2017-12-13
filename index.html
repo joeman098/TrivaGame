@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TRIVA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./javascript/app.js"></script>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class=" col-lg-12">
+				<h1 class="text-center">TRIVA GAME?! <br> <button class="btn btn-primary" id="start" style="height: 70px;">START</button></h1>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="offset-lg-3 col-lg-6 offset-lg-3">
+				<div class="card text-center" id="gamespace">
+
+					<span id="time"><h2>15</h2></span>
+					<div class="row">
+						<div class="col-lg-6" >
+							<p id="question">This is a super sweet triva game try to get the correct answers to stuff. If you dont get the
+							right answer that is the thing you dont want to do. you should try to get the questions right because thats the goal!</p>
+							<div class="card" id="options">
+								<p></p>
+							</div>
+						</div>
+						<div class="col-lg-6" id="but">
+							<button class="btn btn-primary" id="btn1">A</button>
+							<button class="btn btn-info" id="btn2">B</button>
+							<button class="btn btn-danger" id="btn3">C</button>
+							<div class="row">
+								<div class="col-lg " id="stats">
+									Correct:<span id="correct"></span> Wrong:<span id="wrong"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+
+
+	</div>
+	
+</body>
+</html>
