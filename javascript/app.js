@@ -121,6 +121,10 @@ $("#but").children().prop("disabled",true);
 			$("#options").html(options[qnum]);
 			$("#but").children().prop("disabled",false);	
 
+			if (qnum === question.length) {
+					gameover();
+				}
+
 		}
 		function answer(){
 			
@@ -135,9 +139,6 @@ $("#but").children().prop("disabled",true);
 				wrong();	
 				$("#wrong").html(stats.error);
 			}
-			if (qnum === question.length) {
-					gameover();
-				}
 		}
 		
 
